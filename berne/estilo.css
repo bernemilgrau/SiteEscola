@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+}
+
+hr{
+border-color: goldenrod;
+}
+
+
+header{
+    position: fixed;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+imgPro img{
+width: 500px;
+
+}
+
+h1{
+font-size: 30px;
+}
+
+h6{
+font-size: 15px;
+}
+
+.imgPro{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.imgPro p{
+    font-size: 20px;
+}
+
+.descricao li{
+color: #525252;
+margin-top: 20px;
+}
+
+.descricao p{
+color: red;
+}
+
+.descricao{
+margin-left: 40px;
+}
+
+
+
+
+
+
+footer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100px;
+background-color: black;
+
+}
+
+footer a{
+text-transform: uppercase;
+color: white;
+font-size: 15px;
+text-decoration: none;
+
+}
+.insta img{
+    width: 60px;
+}
+
+.insta{
+display: flex;
+align-items: center;
+
+}
+
+.pagamento{
+    width: 10px;
+}
